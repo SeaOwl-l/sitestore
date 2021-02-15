@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,100&display=swap"
+      rel="stylesheet"
+    />
+    <!-- <link rel="stylesheet" href="css/style-reset.css"> -->
+    <title>Вкусно</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="Search">
+          <img src="img/logo.jpg" alt="Вкусно" class="logo" />
+          <form>
+            <div class="dropdown">
+            <button class="btnbrowse">
+              Выбрать <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <div class="droptriangle"></div>
+              <h2>Овощи</h2>
+              <div class="dropline"></div>
+              <a href="#">Баклажаны</a>
+              <a href="#">Огурцы</a>
+              <a href="#">Кабачки</a>
+              <a href="#">Перец</a>
+              <h2>Фрукты</h2>
+              <div class="dropline"></div>
+              <a href="#">Слива</a>
+              <a href="#">Персики</a>
+              <a href="#">Виноград</a>
+              <a href="#">Яблоки</a>
+              <a href="#">Груши</a>
+              <h2>Мясо</h2>
+              <div class="dropline"></div>
+              <a href="#">Курица</a>
+              <a href="#">Свинина</a>
+              <a href="#">Говядина</a>
+              <h2>Рыба</h2>
+              <div class="dropline"></div>
+              <a href="#">Лосось</a>
+              <a href="#">Сельдь</a>
+              <h2>Полуфабрикаты</h2>
+              <div class="dropline"></div>
+              <a href="#">Пельмени</a>
+              <a href="#">Вареники</a>
+              <a href="#">Блины</a>
+            </div>
+          </div>
+            <input type="text" placeholder="Поиск по сайту..." />
+            <button class="btnsearch" type="submit"></button>
+          </form>
+          <div class="dropdown-card">
+          <img src="img/buy.jpg" alt="" class="buy" />
+          <div class="dropdown-contentcard">
+            <div class="droptriangle-card">
+              <div class="droptriangle-card2"></div>
+            </div>
+            <a href="shopping-card.html"><button class="btn-cardcheckout">checkout</button></a>
+              <a href="shopping-card.html"><button class="btn-cardgocard">Перейти в корзину </button></a>
+          </div>
+</div>
+<div class="dropdown-account">
+          <button class="btnaccount">
+            Аккаунт <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content-account">
+            <div class="droptriangle-account"></div>
+          </div>
+</div>
+        </div>
+      </div>
+
+      <div class="line"></div>
+
+      <div class="container">
+        <nav>
+          <ul class="menu">
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="product-man.html">Овощи/Фрукты</a></li>
+            <li><a href="#">Мясо</a></li>
+            <li><a href="#">Рыба</a></li>
+            <li><a href="#">Бакалея</a></li>
+            <li><a href="#">Молочные продукты</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <div class="sliderimg">
+      <div class="container">
+<div class="slidetext"> <h1> <span>В</span>сегда свежие <br> <span class="and">&</span><br>
+  вкусные <span>продукты</span> </h1></div>
+</div>
+<div class="container">
+<div class="slidetext2"> <h1> <span>К</span>ачество <span>100%</span> </h1></div>
+</div>
+</div>
+
+    <section>
+      <div class="container">
+        <div class="category-items">
+          <div class="category-item">
+            <div class="category1">
+              <div class="blocktext">
+                <p class="toptext">всех видов</p>
+                <p class="bottomtext">макароны</p>
+              </div> 
+                <img src="img/category/category1.jpg" alt="">
+              </div>
+              <div class="category2">
+                <div class="blocktext">
+                  <p class="toptext">новое поступление</p>
+                  <p class="bottomtext">красная рыба</p>
+                </div> 
+                <img src="img/category/category4.jpg" alt="">
+              </div>
+          </div>
+          <div class="category-item">
+            <div class="category2">
+              <div class="blocktext">
+                <p class="toptext">всегда свежее</p>
+                <p class="bottomtext meat">мясо</p>
+              </div>
+              <img src="img/category/category3.jpg" alt=""></div>
+              <div class="category1">
+                <div class="blocktext">
+                  <p class="toptext">30% скидка</p>
+                  <p class="bottomtext">Сезонные яблоки</p>
+                </div> 
+                <img src="img/category/category2.jpg" alt=""></div>
+              </div>
+            </div>
+          </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="textproduct"><p class="textproduct-top">Популяные товары</p><p class="textproduct-bottom">Все товары, которые покупали чаще всего на этой неделе</p></div>
+        <div class="product-items">
+          <div class="product-item">
+            <div class="product-card">
+              <div class="product-img"><img src="img/product/potatoes.jpg" alt=""></div>
+              <div class="hover-img"><button class="btnhover-card"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Добавить в корзину</button></div>
+              <a href="single-page.html">
+              <p class="product-name">Картофель фермерский</p>
+              <p class="product-price">$1.00</p>
+              </a>
+            </div>
+            <div class="product-card">
+              <div class="product-img"><img src="img/product/bread.jpg" alt=""></div>
+              <div class="hover-img"><button class="btnhover-card"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Добавить в корзину</button></div>
+              <a href="single-page.html">
+              <p class="product-name">хлеб домашний</p>
+              <p class="product-price">$1.00</p>
+              </a>
+            </div>
+          </div>
+          <div class="product-item">
+            <div class="product-card">
+              <div class="product-img"><img src="img/product/sausage.jpg" alt=""></div>
+              <div class="hover-img"><button class="btnhover-card"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Добавить в корзину</button></div>
+              <a href="single-page.html">
+              <p class="product-name">колбаса</p>
+              <p class="product-price">$1.00</p>
+              </a>
+            </div>
+            <div class="product-card">
+              <div class="product-img"><img src="img/product/milk.jpg" alt=""></div>
+              <div class="hover-img"><button class="btnhover-card"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Добавить в корзину</button></div>
+              <a href="single-page.html">
+              <p class="product-name">Молоко фермерское</p>
+              <p class="product-price">$1.00</p>
+              </a>
+            </div>
+          </div>
+          <div class="product-item">
+            <div class="product-card">
+              <div class="product-img"><img src="img/product/cheese.jpg" alt=""></div>
+              <div class="hover-img"><button class="btnhover-card"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Добавить в корзину</button></div>
+              <a href="single-page.html">
+              <p class="product-name">сыр российский</p>
+              <p class="product-price">$1.00</p>
+              </a>
+            </div>
+            <div class="product-card">
+              <div class="product-img"><img src="img/product/egg.jpg" alt=""></div>
+              <div class="hover-img"><button class="btnhover-card"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Добавить в корзину</button></div>
+              <a href="single-page.html">
+              <p class="product-name">Яйца фермерские</p>
+              <p class="product-price">$1.00</p>
+              </a>
+            </div>
+          </div>
+          <div class="product-item">
+            <div class="product-card">
+              <div class="product-img"><img src="img/product/dumplings.jpg" alt=""></div>
+              <div class="hover-img"><button class="btnhover-card"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Добавить в корзину</button></div>
+              <a href="single-page.html">
+              <p class="product-name">Пельмени по домашнему</p>
+              <p class="product-price">$1.00</p>
+              </a>
+            </div>
+            <div class="product-card">
+              <div class="product-img"><img src="img/product/apples.jpg" alt=""></div>
+              <div class="hover-img"><button class="btnhover-card"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Добавить в корзину</button></div>
+              <a href="single-page.html">
+              <p class="product-name">яблоки сезонные</p>
+              <p class="product-price">$1.00</p>
+              </a>
+            </div>
+          </div>
+        </div>
+        <button class="btn-allproduct"> Все продукты <i class="fa fa-long-arrow-right" aria-hidden="true"></i> </button>
+      </div>
+    </section>
+    <section>
+      <div class="container">
+        <div class="feature-items">
+          <div class="feature-img"><img class="f-img" src="img/featurbanner.jpg" alt=""> </div>
+          <div class="feature-item">
+            <div class="feature-content">
+              <img src="img/figure1.png" alt="">
+            <div class="feature-text">
+              <p class="featuretext-top"> <span>Б</span>есплатная доставка</p> <p class="featuretext-bottom">Lorem ipsum dolor sit amet consectetur adipisicing elit consectetur adipisic.</p>
+              </div>
+            </div>
+            <div class="feature-content">
+              <img src="img/figure2.png" alt="">
+              <div class="feature-text">
+              <p class="featuretext-top"> <span>С</span>кидки</p> <p class="featuretext-bottom">Lorem ipsum dolor sit amet consectetur adipisicing elit consectetur adipisic.</p>
+              </div>
+            </div>
+            <div class="feature-content">
+              <img src="img/figure3.png" alt="">
+              <div class="feature-text">
+              <p class="featuretext-top"><span>Г</span>арантия свежести</p> <p class="featuretext-bottom">Lorem ipsum dolor sit amet consectetur adipisicing elit consectetur adipisic.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="subscribe-img">
+        <div class="subscribe-img-fon">
+      <div class="container">
+        <div class="subscribe-items">
+          <div class="subscribe-item">
+            <div class="subscribe-picture"><img src="img/subscribeimg.jpg" alt=""></div>
+            <div class="subscribe-textleft">
+              <p class="textleft-top">
+                " Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem tempora tenetur ut nihil voluptatum temporibus autem consequuntur? Ut nemo, laborum deleniti neque cumque odit quia "
+              </p>
+              <p class="textleft-bottom">Bin Burhar</p>
+              <p class="textleft-bottom2">Dhaka, Bd</p>
+            </div>
+            <div class="subscribe-nav1"></div>
+            <div class="subscribe-nav2"></div>
+          </div>
+          <div class="subscribe-item">
+            <div class="subscribe-textright">
+              <p class="textright-top">Подписаться</p>
+              <p class="textright-buttom">на наши новости и акции</p>
+            </div>
+            <input type="text" placeholder="Введите ваш Email..." />
+            <button class="btnsubscribe" type="submit">Подписаться</button>
+          </div>
+        </div>
+      </div>
+      </div>
+      </div>
+    </section>
+    <section>
+      <div class="container">
+        <div class="information-items">
+          <div class="information-item">
+            <img class="information-logo" src="img/logo.jpg" alt="">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus, expedita error rerum aliquam pariatur dolores nesciunt voluptates similique quo rem quos harum qui vel eius!</p> <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo dolore ad, sequi libero eius temporibus, a et alias, sit officia pariatur placeat accusamus magnam ea voluptatem debitis. Recusandae, nihil omnis!</p>
+          </div>
+          <div class="information-item">
+            <h2>company</h2>
+            <ul>
+              <li><a href="">Home</a></li>
+              <li><a href="">Shop</a></li>
+              <li><a href="">About</a></li>
+              <li><a href="">How It Works</a></li>
+              <li><a href="">Contact</a></li>
+            </ul>
+          </div>
+          <div class="information-item">
+            <h2>information</h2>
+            <ul>
+              <li><a href="">Home</a></li>
+              <li><a href="">Shop</a></li>
+              <li><a href="">About</a></li>
+              <li><a href="">How It Works</a></li>
+              <li><a href="">Contact</a></li>
+            </ul></div>
+          <div class="information-item">
+            <h2>shop category</h2>
+            <ul>
+              <li><a href="">Home</a></li>
+              <li><a href="">Shop</a></li>
+              <li><a href="">About</a></li>
+              <li><a href="">How It Works</a></li>
+              <li><a href="">Contact</a></li>
+            </ul></div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <p class="footer-text">&copy; 2020 Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+        <div class="footer-item">
+        <div class="footer-block"><i class="fa fa-facebook" aria-hidden="true"></i></div>
+        <div class="footer-block"><i class="fa fa-twitter" aria-hidden="true"></i></div>
+        <div class="footer-block"><i class="fa fa-instagram" aria-hidden="true"></i></div>
+        <div class="footer-block"><i class="fa fa-pinterest-p" aria-hidden="true"></i></div>
+        <div class="footer-block"><i class="fa fa-google-plus" aria-hidden="true"></i></div>
+        </div>
+      </div>
+    </footer>
+    <script src="https://use.fontawesome.com/84ba266f69.js"></script>
+  </body>
+</html>
